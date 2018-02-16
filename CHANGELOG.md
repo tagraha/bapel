@@ -1,3 +1,9 @@
+#### 0.0.3 (2018-02-16)
+
+##### Bug Fixes
+
+* **npm script:**  fix changelog generate commit destination ([88c89503](https://github.com/tagraha/bapel/commit/88c89503fad6b2cca73c3f0b6208c6e99caa008a))
+
 #### 0.0.2 (2018-02-16)
 
 ##### Bug Fixes
