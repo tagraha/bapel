@@ -1,0 +1,26 @@
+{
+  "name": "bapel",
+  "version": "0.0.1",
+  "description": "personal css framework by tirta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:major": "changelog -M -u https://gitlab.com/nugrata/betotally-universally && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin --tags",
+    "release:minor": "changelog -m -u https://gitlab.com/nugrata/betotally-universally && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin --tags",
+    "release:patch": "changelog -p -u https://gitlab.com/nugrata/betotally-universally && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tagraha/bapel.git"
+  },
+  "keywords": [
+    "css",
+    "flex"
+  ],
+  "author": " <dev.nugrata@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tagraha/bapel/issues"
+  },
+  "homepage": "https://github.com/tagraha/bapel#readme"
+}
