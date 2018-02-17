@@ -9,6 +9,10 @@
 	&.green {
 		background: #1abc9c;
 	}
+
+	a {
+		color: #fff !important;
+	}
 }
 .card:hover {
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
