@@ -1,6 +1,6 @@
 {
   "name": "bapel",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "personal css framework by tirta",
   "main": "index.js",
   "scripts": {
