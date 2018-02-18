@@ -1,17 +1,45 @@
 .button {
-  background-color: #9b4dca;
-  border: 0.09rem solid #9b4dca;
-  border-radius: .4rem;
-  color: #fff;
-  cursor: pointer;
   display: inline-block;
+  font-weight: 400;
   text-align: center;
-  text-decoration: none;
   white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
 
   &.outlined {
     background-color: transparent;
     color: #9b4dca;
+  }
+
+  &.primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+    }
+  }
+
+  &.warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255,193,7,.5);
+    }
   }
 
   &:focus {
