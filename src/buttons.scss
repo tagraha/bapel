@@ -38,6 +38,20 @@
     }
   }
 
+  &.success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    &:hover {
+      color: #fff;
+      background-color: #218838;
+      border-color: #1e7e34;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(40,167,69,.5);
+    }
+  }
+
   &.warning {
     color: #212529;
     background-color: #ffc107;
