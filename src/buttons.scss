@@ -28,6 +28,11 @@
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
+    &:hover {
+      color: #fff;
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
     }
@@ -37,6 +42,11 @@
     color: #212529;
     background-color: #ffc107;
     border-color: #ffc107;
+    &:hover {
+      color: #212529;
+      background-color: #e0a800;
+      border-color: #d39e00;
+    }
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba(255,193,7,.5);
     }
