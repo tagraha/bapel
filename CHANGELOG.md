@@ -1,3 +1,29 @@
+#### 0.0.4 (2018-02-18)
+
+##### Bug Fixes
+
+* **indent:**  fix indentation ([20f82928](https://github.com/tagraha/bapel/commit/20f829288bdbcadddb63a659886e87c3d2e395ec))
+* **http:**  fix wrong destination commit log ([8c6dc68d](https://github.com/tagraha/bapel/commit/8c6dc68d80bc9b1455577bb614d692c26c0737df))
+
+##### Other Changes
+
+* **page:**  adding component page ([b7ed1881](https://github.com/tagraha/bapel/commit/b7ed1881c778398b37d9ec531843e9aae0f70f8d))
+
+##### Code Style Changes
+
+* **dist:**  update dist build ([490ca531](https://github.com/tagraha/bapel/commit/490ca5318e95971223766e5cfa124d0aef4863fa))
+* **component:**
+  *  danger button focus state ([d9fca7e1](https://github.com/tagraha/bapel/commit/d9fca7e1f90c71c0a9696ebb8643be1db547923e))
+  *  danger button hover state ([99bd6dec](https://github.com/tagraha/bapel/commit/99bd6dec2e26eb8dde6ae3be72a0068c6071d643))
+  *  add danger button ([d16f680c](https://github.com/tagraha/bapel/commit/d16f680cd80b9b1ed97c95b131ae9963a73f3b1d))
+  *  add button success ([63ea3091](https://github.com/tagraha/bapel/commit/63ea30918029493eddb9ddbfe7a2b07aa93569f8))
+  *  add hoverstate for button primary and warning ([1cb48a9c](https://github.com/tagraha/bapel/commit/1cb48a9c74337a2afc73152c6b440f2ef1060436))
+  *  add example for primary, warning button ([e972dcf8](https://github.com/tagraha/bapel/commit/e972dcf8a784c2cef11505931d20f7ebf3883022))
+* **example:**  button example ([6bad1e66](https://github.com/tagraha/bapel/commit/6bad1e66f0a84826abf5b075091c4067d4d367e9))
+* **src:**
+  *  add link color on green card ([d071acf5](https://github.com/tagraha/bapel/commit/d071acf5cc9e2ffd349d6cb4f55bd2e54c695614))
+  *  adding card src ([b8d27ec4](https://github.com/tagraha/bapel/commit/b8d27ec4df9988f95327708edfbb52c9dfa9ebb8))
+
 #### 0.0.3 (2018-02-16)
 
 ##### Bug Fixes
