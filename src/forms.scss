@@ -12,13 +12,13 @@
 [type='time'],
 [type='url'],
 [type='color'],
-textarea  {
+textarea {
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   height: 2.4375rem;
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
   border-radius: 0;
@@ -49,6 +49,15 @@ textarea  {
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
   }
+}
+
+label.input-label {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 1.8;
+  color: #0a0a0a;
 }
 
 input:disabled,
