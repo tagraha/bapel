@@ -50,3 +50,12 @@ textarea  {
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
   }
 }
+
+input:disabled,
+input[readonly],
+textarea:disabled,
+textarea[readonly]
+{
+  background-color: #e6e6e6;
+  cursor: not-allowed;
+}
