@@ -7,11 +7,17 @@
   display: inline-block;
   padding-bottom: 4px;
   padding: 4px 6px;
-  border-radius: 3px;
+  border-radius: 7px;
 
   &.warning {
     background-color: #ffd351;
     border-color: #ffd351;
     color: #594300;
+  }
+
+  &.danger {
+    background-color: #fb4c35;
+    border-color: #fb4c35;
+    color: #ffffff;
   }
 }
