@@ -1,5 +1,5 @@
-# bapel
-personal css framework.
+# Bapel
+personal css framework. Demo http://bapel-uikit.surge.sh/
 
 ### installation
 ```javascript
