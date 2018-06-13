@@ -150,8 +150,8 @@ const ButtonStory = () => (
               </Button>
             </td>
             <td>
-              <Button variant="link" onClick={action('link button color cyan')}>
-                <Text color="cyan">link text override</Text>
+              <Button variant="link" onClick={action('link button color blue')}>
+                <Text color="blue">link text override</Text>
               </Button>
             </td>
           </tr>

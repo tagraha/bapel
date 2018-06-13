@@ -38,18 +38,18 @@ const buttonStyleHandler = (props: HandlerProps) => {
   const styles: Object = {};
 
   styles.width = props.block || props.position ? '100%' : 'auto';
-  styles.borderRadius = props.round ? '8rem' : '0.5rem';
+  styles.borderRadius = props.round ? '8rem' : '0rem';
 
   switch (props.variant) {
     case 'primary':
       styles.border = 'solid 0.1rem rgba(0, 0, 0, 0.24)';
       styles.borderBottomColor = 'rgba(0, 0, 0, 0.32)';
-      styles.backgroundColor = '#00a1b0';
-      styles.mouseEventBackgroundColor = '#007c87';
+      styles.backgroundColor = '#007bff';
+      styles.mouseEventBackgroundColor = '#0069d9';
       break;
     case 'line':
-      styles.border = 'solid 0.1rem #00a1b0';
-      styles.borderBottomColor = '#007c87';
+      styles.border = 'solid 0.1rem #007bff';
+      styles.borderBottomColor = '#0069d9';
       styles.backgroundColor = '#fff';
       styles.mouseEventBackgroundColor = '#fff';
       break;
