@@ -30,10 +30,11 @@ const ButtonStory = () => (
   <Provider>
     <div className="doc-mainbar">
       <h1>Buttons</h1>
+      <p>Usage: <code>{`import { button } from 'bapel'`}</code></p>
       <table className="doc-table">
         <thead>
           <tr>
-            <th colSpan="2">
+            <th colSpan="3">
               props: <code>size</code>
             </th>
           </tr>
@@ -46,6 +47,9 @@ const ButtonStory = () => (
             <td>
               <Button onClick={action('default button')}>Default</Button>
             </td>
+            <td>
+              <code>{`<Button onClick={...}>Default</Button>`}</code>
+            </td>
           </tr>
           <tr>
             <td>
@@ -56,6 +60,9 @@ const ButtonStory = () => (
                 Small
               </Button>
             </td>
+            <td>
+              <code>{`<Button size="small">Default</Button>`}</code>
+            </td>
           </tr>
           <tr>
             <td>
@@ -65,6 +72,9 @@ const ButtonStory = () => (
               <Button size="xsmall" onClick={action('xsmall button')}>
                 XSmall
               </Button>
+            </td>
+            <td>
+              <code>{`<Button size="xsmall">Default</Button>`}</code>
             </td>
           </tr>
         </tbody>
