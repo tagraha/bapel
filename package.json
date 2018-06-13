@@ -1,7 +1,7 @@
 {
   "name": "bapel",
   "version": "2.0.3",
-  "description": "bapel uikit for web frontend",
+  "description": "made by love <dev.nugrata@gmail.com> bapel uikit for web frontend",
   "main": "dist/index.js",
   "scripts": {
     "assets:build": "webpack",
