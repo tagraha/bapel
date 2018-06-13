@@ -1,5 +1,5 @@
 # Bapel
-personal css framework. Demo http://bapel-uikit.surge.sh/
+Personal react components UIkit. Demo http://bapel-uikit.surge.sh/
 
 ### installation
 ```javascript
@@ -22,3 +22,5 @@ open localhost:9001 on your browser after run this command
 ### Todos
 - [ ] better documentation
 - [ ] unit testing
+
+any kind contribution and PR are welcome
