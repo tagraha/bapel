@@ -3,7 +3,7 @@ personal css framework. Demo http://bapel-uikit.surge.sh/
 
 ### installation
 ```javascript
-npm install bapel
+npm install -S bapel
 ```
 
 ### usage
