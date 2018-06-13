@@ -2,7 +2,7 @@
 Personal react components UIkit. Demo http://bapel-uikit.surge.sh/
 
 ### installation
-```javascript
+```bash
 npm install -S bapel
 ```
 
