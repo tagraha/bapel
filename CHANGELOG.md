@@ -1,3 +1,19 @@
+#### 2.0.1 (2018-06-13)
+
+##### Other Changes
+
+* **build:**
+  *  update build for demo at surge ([1681b0b5](https://github.com/tagraha/bapel/commit/1681b0b5f682fb18a1bde0044f6f4737b770402e))
+  *  update build ([7751dc8f](https://github.com/tagraha/bapel/commit/7751dc8f807bf3dc50988ae28369c23c9fd00418))
+* **package:**
+  *  update react-test-renderer, flow-bin, jest ([3e8dfdb1](https://github.com/tagraha/bapel/commit/3e8dfdb1962a659b0c769ee51dcc1568355b1c80))
+  *  update react & react-dom ([8fa6db4b](https://github.com/tagraha/bapel/commit/8fa6db4b284829f56baf32a0ebe40418c1fbcff6))
+  *  adding package-lock.json ([ea450a80](https://github.com/tagraha/bapel/commit/ea450a80afb1b7c6c8be56ce4475f20352ec9f57))
+* **readme:**
+  *  adding demo link ([cc136cea](https://github.com/tagraha/bapel/commit/cc136cea4e2f36fd4c217367b6df17f2e987d319))
+  *  update basic usage snippet ([6447c86a](https://github.com/tagraha/bapel/commit/6447c86adba7f3bb0e2d573fe420a6a8c237fa8b))
+* **npm:**  change package name ([012921f6](https://github.com/tagraha/bapel/commit/012921f6397cb8c0c0701d72d391bd2e0ff5aa94))
+
 ## 2.0.0 (2018-05-19)
 
 ##### Build System / Dependencies
