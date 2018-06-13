@@ -72,6 +72,7 @@ const StyledText = styled.span`
     ['blue', '#2196F3'],
     ['orange', '#FF9800'],
     ['white', '#FFFFFF'],
+    ['blue', '#2196F3'],
   ])};
   text-transform: ${Matcher.create('textTransform', [
     ['capitalize', 'capitalize'],
