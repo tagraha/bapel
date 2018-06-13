@@ -90,6 +90,11 @@ const ButtonStory = () => (
         </thead>
         <tbody>
           <tr>
+            <td colSpan="3">
+              usage: <code>{`<Button variant="primary">hello</Button>`}</code>
+            </td>
+          </tr>
+          <tr>
             <td>
               <code>default</code>
             </td>
