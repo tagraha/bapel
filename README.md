@@ -1,4 +1,5 @@
 # Bapel
+Made by love dev.nugrata@gmail.com
 Personal react components UIkit. Demo http://bapel-uikit.surge.sh/
 
 ### installation
