@@ -68,7 +68,7 @@
 /***/ 41:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/logos/kumparan-82e873304efdd9b367e23f9b466400ff.svg";
+module.exports = __webpack_require__.p + "assets/logos/yolo-82e873304efdd9b367e23f9b466400ff.svg";
 
 /***/ })
 

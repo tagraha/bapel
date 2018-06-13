@@ -11,7 +11,7 @@ import UikitManifest from 'uikit-manifest';
 
 import ButtonStory from '../../stories/ButtonStory';
 
-import UikitProvider from '../../src/Provider/UikitProvider';
+import UikitProvider from '../../src/Provider';
 
 test('Render Button story correctly', () => {
   const mockUikitManifest = UikitManifest.getManifest();
