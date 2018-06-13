@@ -13,7 +13,7 @@ import { Button } from 'bapel';
 <Button>hello world</Button>
 ```
 
-### npm scripts
+### npm scripts for development
 ```bash
 npm run storybook
 ```
