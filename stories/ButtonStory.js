@@ -30,7 +30,7 @@ const ButtonStory = () => (
   <Provider>
     <div className="doc-mainbar">
       <h1>Buttons</h1>
-      <p>Usage: <code>{`import { button } from 'bapel'`}</code></p>
+      <p>Usage: <code>{`import { Button } from 'bapel'`}</code></p>
       <table className="doc-table">
         <thead>
           <tr>
