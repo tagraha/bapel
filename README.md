@@ -9,9 +9,10 @@ npm install -S bapel
 
 ### usage
 ```javascript
-import { Button } from 'bapel';
+import { Button, Card } from 'bapel';
 
 <Button>hello world</Button>
+<Card />
 ```
 
 ### npm scripts for development
