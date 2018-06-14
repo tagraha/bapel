@@ -1,3 +1,10 @@
+### 2.1.0 (2018-06-14)
+
+##### Other Changes
+
+* **card:**  adding card component ([a5c19d36](https://github.com/tagraha/bapel/commit/a5c19d3623be7b7a40ff635cbaa02df5523309c0))
+* **intro:**  adding introduction story ([75eb6d40](https://github.com/tagraha/bapel/commit/75eb6d406185af765abfc22971e2548ffaa251b8))
+
 #### 2.0.7 (2018-06-13)
 
 #### 2.0.1 (2018-06-13)
