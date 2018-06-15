@@ -9,7 +9,7 @@ const CardStories = () => {
       <p><pre>{`<Card
   cardImage="https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg"
   cardCaption="any kind of long text of title would be great. hehehe, yolo bro"
-  linkDestination="https://github.com/tagraha/bapel"
+  url="https://github.com/tagraha/bapel"
   isReactRouter={false}
   external={true}
 />`}</pre></p>
@@ -18,7 +18,7 @@ const CardStories = () => {
       <Card
         cardImage="https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg"
         cardCaption="any kind of long text of title would be great. hehehe, yolo bro"
-        linkDestination="https://github.com/tagraha/bapel"
+        url="https://github.com/tagraha/bapel"
         isReactRouter={false}
         external={true}
       />

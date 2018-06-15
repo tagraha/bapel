@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 type Props = {
   cardImage?: string,
   cardCaption?: string,
-  linkDestination?: string,
+  url?: string,
   external: boolean,
   isReactRouter: boolean,
 };
@@ -14,7 +14,7 @@ const Card = (props: Props) => {
   const {
     cardImage,
     cardCaption,
-    linkDestination,
+    url,
     external,
     isReactRouter,
   } = props;
@@ -25,7 +25,7 @@ const Card = (props: Props) => {
       <CardTitleWrapper>
         {cardCaption && !isReactRouter &&
           <CardTitle 
-            href={linkDestination || "javascript:void(0)"}
+            href={url || "javascript:void(0)"}
             target={external ? '_blank' : '_parent'}
             rel="noopener noreferrer"
           >
@@ -35,7 +35,7 @@ const Card = (props: Props) => {
 
         {isReactRouter &&
           <LinkRouter
-            to={linkDestination}
+            to={url}
           >{cardCaption}</LinkRouter>
         }
       </CardTitleWrapper>
@@ -48,7 +48,7 @@ const Card = (props: Props) => {
 Card.defaultProps = {
   cardImage: 'https://picsum.photos/500/300',
   cardCaption: 'default caption',
-  linkDestination: 'https://google.com',
+  url: 'https://google.com',
   external: true,
   isReactRouter: false,
 };
