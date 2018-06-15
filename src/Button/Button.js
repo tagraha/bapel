@@ -44,12 +44,12 @@ const buttonStyleHandler = (props: HandlerProps) => {
     case 'primary':
       styles.border = 'solid 0.1rem rgba(0, 0, 0, 0.24)';
       styles.borderBottomColor = 'rgba(0, 0, 0, 0.32)';
-      styles.backgroundColor = '#007bff';
-      styles.mouseEventBackgroundColor = '#0069d9';
+      styles.backgroundColor = '#3d70b2';
+      styles.mouseEventBackgroundColor = '#30588c';
       break;
     case 'line':
-      styles.border = 'solid 0.1rem #007bff';
-      styles.borderBottomColor = '#0069d9';
+      styles.border = 'solid 0.1rem #3d70b2';
+      styles.borderBottomColor = '#30588c';
       styles.backgroundColor = '#fff';
       styles.mouseEventBackgroundColor = '#fff';
       break;
@@ -118,7 +118,7 @@ const ButtonWrapper = styled.button`
   width: ${props => buttonStyleHandler(props).width};
   background-color: ${props => buttonStyleHandler(props).backgroundColor};
   font-size: ${props => buttonStyleHandler(props).fontSize};
-  color: ${props => buttonStyleHandler(props).color};
+  color: '${props => buttonStyleHandler(props).color}';
   border: ${props => buttonStyleHandler(props).border};
   border-bottom-color: ${props => buttonStyleHandler(props).borderBottomColor};
   border-right: ${props => buttonStyleHandler(props).borderRight};
