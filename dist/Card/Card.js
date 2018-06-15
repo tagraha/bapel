@@ -29,7 +29,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Card = function Card(props) {
   var cardImage = props.cardImage,
       cardCaption = props.cardCaption,
-      linkDestination = props.linkDestination,
+      url = props.url,
       external = props.external,
       isReactRouter = props.isReactRouter;
 
@@ -44,7 +44,7 @@ var Card = function Card(props) {
       cardCaption && !isReactRouter && _react2.default.createElement(
         CardTitle,
         {
-          href: linkDestination || "javascript:void(0)",
+          href: url || "javascript:void(0)",
           target: external ? '_blank' : '_parent',
           rel: 'noopener noreferrer'
         },
@@ -53,7 +53,7 @@ var Card = function Card(props) {
       isReactRouter && _react2.default.createElement(
         LinkRouter,
         {
-          to: linkDestination
+          to: url
         },
         cardCaption
       )
@@ -69,7 +69,7 @@ var Card = function Card(props) {
 Card.defaultProps = {
   cardImage: 'https://picsum.photos/500/300',
   cardCaption: 'default caption',
-  linkDestination: 'https://google.com',
+  url: 'https://google.com',
   external: true,
   isReactRouter: false
 };

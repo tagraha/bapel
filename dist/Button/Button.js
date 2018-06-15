@@ -16,7 +16,7 @@ var _taggedTemplateLiteral2 = require('babel-runtime/helpers/taggedTemplateLiter
 
 var _taggedTemplateLiteral3 = _interopRequireDefault(_taggedTemplateLiteral2);
 
-var _templateObject = (0, _taggedTemplateLiteral3.default)(['\n  appearance: none;\n  user-select: none;\n  font-family: inherit;\n  padding: 0;\n  outline: 0;\n  transition: 0.2s;\n  line-height: 2.4rem;\n  text-decoration: none !important;\n  ', ' position: relative;\n  overflow: hidden;\n  display: inline-block;\n  border-radius: ', ';\n  width: ', ';\n  background-color: ', ';\n  font-size: ', ';\n  color: ', ';\n  border: ', ';\n  border-bottom-color: ', ';\n  border-right: ', ';\n  &:hover {\n    background-color: ', ';\n    color: ', ';\n  }\n  cursor: ', ';\n  opacity: ', ';\n  vertical-align: middle;\n'], ['\n  appearance: none;\n  user-select: none;\n  font-family: inherit;\n  padding: 0;\n  outline: 0;\n  transition: 0.2s;\n  line-height: 2.4rem;\n  text-decoration: none !important;\n  ', ' position: relative;\n  overflow: hidden;\n  display: inline-block;\n  border-radius: ', ';\n  width: ', ';\n  background-color: ', ';\n  font-size: ', ';\n  color: ', ';\n  border: ', ';\n  border-bottom-color: ', ';\n  border-right: ', ';\n  &:hover {\n    background-color: ', ';\n    color: ', ';\n  }\n  cursor: ', ';\n  opacity: ', ';\n  vertical-align: middle;\n']),
+var _templateObject = (0, _taggedTemplateLiteral3.default)(['\n  appearance: none;\n  user-select: none;\n  font-family: inherit;\n  padding: 0;\n  outline: 0;\n  transition: 0.2s;\n  line-height: 2.4rem;\n  text-decoration: none !important;\n  ', ' position: relative;\n  overflow: hidden;\n  display: inline-block;\n  border-radius: ', ';\n  width: ', ';\n  background-color: ', ';\n  font-size: ', ';\n  color: \'', '\';\n  border: ', ';\n  border-bottom-color: ', ';\n  border-right: ', ';\n  &:hover {\n    background-color: ', ';\n    color: ', ';\n  }\n  cursor: ', ';\n  opacity: ', ';\n  vertical-align: middle;\n'], ['\n  appearance: none;\n  user-select: none;\n  font-family: inherit;\n  padding: 0;\n  outline: 0;\n  transition: 0.2s;\n  line-height: 2.4rem;\n  text-decoration: none !important;\n  ', ' position: relative;\n  overflow: hidden;\n  display: inline-block;\n  border-radius: ', ';\n  width: ', ';\n  background-color: ', ';\n  font-size: ', ';\n  color: \'', '\';\n  border: ', ';\n  border-bottom-color: ', ';\n  border-right: ', ';\n  &:hover {\n    background-color: ', ';\n    color: ', ';\n  }\n  cursor: ', ';\n  opacity: ', ';\n  vertical-align: middle;\n']),
     _templateObject2 = (0, _taggedTemplateLiteral3.default)(['\n      background-image: linear-gradient(\n        180deg,\n        hsla(0, 0%, 100%, 0.1),\n        hsla(0, 0%, 100%, 0)\n      );\n    '], ['\n      background-image: linear-gradient(\n        180deg,\n        hsla(0, 0%, 100%, 0.1),\n        hsla(0, 0%, 100%, 0)\n      );\n    ']),
     _templateObject3 = (0, _taggedTemplateLiteral3.default)(['\n  display: table;\n  width: 100%;\n'], ['\n  display: table;\n  width: 100%;\n']);
 
@@ -56,12 +56,12 @@ var buttonStyleHandler = function buttonStyleHandler(props) {
     case 'primary':
       styles.border = 'solid 0.1rem rgba(0, 0, 0, 0.24)';
       styles.borderBottomColor = 'rgba(0, 0, 0, 0.32)';
-      styles.backgroundColor = '#007bff';
-      styles.mouseEventBackgroundColor = '#0069d9';
+      styles.backgroundColor = '#3d70b2';
+      styles.mouseEventBackgroundColor = '#30588c';
       break;
     case 'line':
-      styles.border = 'solid 0.1rem #007bff';
-      styles.borderBottomColor = '#0069d9';
+      styles.border = 'solid 0.1rem #3d70b2';
+      styles.borderBottomColor = '#30588c';
       styles.backgroundColor = '#fff';
       styles.mouseEventBackgroundColor = '#fff';
       break;
