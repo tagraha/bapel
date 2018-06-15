@@ -1,3 +1,9 @@
+#### 2.1.2 (2018-06-15)
+
+##### Build System / Dependencies
+
+* **export:**  release card component ([324a52de](https://github.com/tagraha/bapel/commit/324a52de58f96726c747dd5eba5fe135bed07a0d))
+
 #### 2.1.1 (2018-06-15)
 
 ##### Build System / Dependencies
