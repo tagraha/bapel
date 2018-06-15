@@ -21,7 +21,7 @@ const Card = (props: Props) => {
 
   return (
     <CardWrapper>
-      <CardImage src={cardImage || 'https://picsum.photos/500/300'} />
+      <CardImage src={cardImage} />
       <CardTitleWrapper>
         {cardCaption && !isReactRouter &&
           <CardTitle 
@@ -44,6 +44,14 @@ const Card = (props: Props) => {
     </CardWrapper>
   )
 }
+
+Card.defaultProps = {
+  cardImage: 'https://picsum.photos/500/300',
+  cardCaption: 'default caption',
+  linkDestination: 'https://google.com',
+  external: true,
+  isReactRouter: false,
+};
 
 const CardWrapper = styled.div`
   max-width: 33%;

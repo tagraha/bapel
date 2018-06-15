@@ -37,7 +37,7 @@ var Card = function Card(props) {
   return _react2.default.createElement(
     CardWrapper,
     null,
-    _react2.default.createElement(CardImage, { src: cardImage || 'https://picsum.photos/500/300' }),
+    _react2.default.createElement(CardImage, { src: cardImage }),
     _react2.default.createElement(
       CardTitleWrapper,
       null,
@@ -64,6 +64,14 @@ var Card = function Card(props) {
       '5m ago by Tirta'
     )
   );
+};
+
+Card.defaultProps = {
+  cardImage: 'https://picsum.photos/500/300',
+  cardCaption: 'default caption',
+  linkDestination: 'https://google.com',
+  external: true,
+  isReactRouter: false
 };
 
 var CardWrapper = _styledComponents2.default.div(_templateObject);
