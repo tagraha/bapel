@@ -1,3 +1,21 @@
+#### 2.1.1 (2018-06-15)
+
+##### Build System / Dependencies
+
+* **update:**  update build for surge ([9758b16e](https://github.com/tagraha/bapel/commit/9758b16edccd10325021e8b8c5938bb58047fee4))
+
+##### New Features
+
+* **props:**  adding common functionality props for card component ([2fe9031e](https://github.com/tagraha/bapel/commit/2fe9031e122d7825d9878bee6833141e03b62d2d))
+
+##### Bug Fixes
+
+* **default props:**  adding default props to Card component ([17afdda2](https://github.com/tagraha/bapel/commit/17afdda262c433567eff6861c2d7b506804277fd))
+
+##### Refactors
+
+* **styled:**  move styled component snippet at bottom ([7f13b5bb](https://github.com/tagraha/bapel/commit/7f13b5bbb72102e0484ba73264ec7c384772248f))
+
 ### 2.1.0 (2018-06-14)
 
 ##### Other Changes
