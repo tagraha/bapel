@@ -330,19 +330,19 @@ const ButtonStory = () => (
                   icon={<Icons name="sosmed-facebook" />}
                   position="left"
                   onClick={action('button group icon left')}>
-                  Line
+                  facebook
                 </Button>
                 <Button
                   icon={<Icons name="sosmed-facebook" />}
                   position="middle"
                   onClick={action('button group icon middle')}>
-                  Line
+                  facebook
                 </Button>
                 <Button
                   icon={<Icons name="sosmed-facebook" />}
                   position="right"
                   onClick={action('button group icon right')}>
-                  Line
+                  facebook
                 </Button>
               </Group>
             </td>
@@ -352,13 +352,13 @@ const ButtonStory = () => (
                   icon={<Icons name="sosmed-facebook" />}
                   position="left"
                   onClick={action('button group icon left')}>
-                  Line
+                  Text
                 </Button>
                 <Button
                   icon={<Icons name="sosmed-facebook" />}
                   position="right"
                   onClick={action('button group icon right')}>
-                  Line
+                  Text
                 </Button>
               </Group>
             </td>
@@ -373,21 +373,21 @@ const ButtonStory = () => (
                   size="small"
                   position="left"
                   onClick={action('button group icon left small')}>
-                  Line
+                  text
                 </Button>
                 <Button
                   icon={<Icons name="sosmed-facebook" />}
                   size="small"
                   position="middle"
                   onClick={action('button group icon middle small')}>
-                  Line
+                  text
                 </Button>
                 <Button
                   icon={<Icons name="sosmed-facebook" />}
                   size="small"
                   position="right"
                   onClick={action('button group icon right small')}>
-                  Line
+                  text
                 </Button>
               </Group>
             </td>
