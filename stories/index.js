@@ -20,7 +20,7 @@ import CardStory from './CardStory';
 // import NavSlideStory from './NavSlideStory';
 // import TabStory from './TabStory';
 
-storiesOf('bapel UIKit', module)
+storiesOf('Bapel Components', module)
   .addDecorator(story => <Provider>{React.createElement(story)}</Provider>)
   .add('Introduction', () => <IntroStory />)
   .add('Card', () => <CardStory />)
