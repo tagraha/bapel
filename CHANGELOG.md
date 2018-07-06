@@ -1,3 +1,18 @@
+#### 2.1.3 (2018-07-06)
+
+##### Other Changes
+
+* **package:**
+  *  move react, styled-components to peerDependencies & devDependencies ([74f4908e](https://github.com/tagraha/bapel/commit/74f4908edaa2ebe4fcbf2223e4de000e20469768))
+  *  update react-router-dom ([2595c9b1](https://github.com/tagraha/bapel/commit/2595c9b1d4c5abff3b9158eb186156293aa9ffc0))
+  *  update react 16.4.1 ([c4e50ebc](https://github.com/tagraha/bapel/commit/c4e50ebcf11d48f261d6b9d1485cf32fce259ff6))
+* **version:**  using strict package version ([8946f862](https://github.com/tagraha/bapel/commit/8946f862ad07dd313f4d4d4bbcd695fd58094568))
+
+##### Refactors
+
+* **props:**  change linkDestination become url ([f1842ff1](https://github.com/tagraha/bapel/commit/f1842ff13f4f2177cb931167e8ae6d3085ec13c6))
+* **caption:**  update button caption ([7c59b1c6](https://github.com/tagraha/bapel/commit/7c59b1c659508f9dc8e4a21d62e34699d0f1bfb2))
+
 #### 2.1.2 (2018-06-15)
 
 ##### Build System / Dependencies
