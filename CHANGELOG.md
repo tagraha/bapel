@@ -1,3 +1,9 @@
+#### 2.1.4 (2018-07-06)
+
+##### Refactors
+
+* **context:**  rename context ([6215702f](https://github.com/tagraha/bapel/commit/6215702f4ef69654095536ad9c5ac94cfafd3891))
+
 #### 2.1.3 (2018-07-06)
 
 ##### Other Changes
