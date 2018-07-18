@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.UikitConsumer = exports.UikitProvider = exports.Uikit = undefined;
+exports.UikitConsumer = exports.UikitProvider = exports.BapelUiKit = undefined;
 
 var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');
 
@@ -23,10 +23,10 @@ var _manifest2 = _interopRequireDefault(_manifest);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Uikit = exports.Uikit = function Uikit(publicPath, LinkComponent) {
+var BapelUiKit = exports.BapelUiKit = function BapelUiKit(publicPath, LinkComponent) {
   var _this = this;
 
-  (0, _classCallCheck3.default)(this, Uikit);
+  (0, _classCallCheck3.default)(this, BapelUiKit);
 
   this.getUrl = function (assetPath) {
     return '' + _this.publicPath + (_this.assetsMap.get(assetPath) || 'notfound');
@@ -43,7 +43,7 @@ var DefaultLink = function DefaultLink(props) {
   return _react2.default.createElement('a', props);
 };
 
-var UikitContext = (0, _createReactContext2.default)(new Uikit('/', DefaultLink));
+var UikitContext = (0, _createReactContext2.default)(new BapelUiKit('/', DefaultLink));
 
 var UikitProvider = exports.UikitProvider = UikitContext.Provider;
 var UikitConsumer = exports.UikitConsumer = UikitContext.Consumer;

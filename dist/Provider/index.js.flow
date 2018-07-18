@@ -3,7 +3,7 @@ import React from 'react';
 import createContext, {type Context} from 'create-react-context';
 import uikitAssets from '../../dist/public/manifest.json';
 
-export class Uikit {
+export class BapelUiKit {
   publicPath: string;
   assetsMap: Map<string, string>;
   Link: React$ComponentType<any>;
@@ -20,7 +20,7 @@ export class Uikit {
 
 const DefaultLink = props => <a {...props} />;
 
-const UikitContext: Context<Uikit> = createContext(new Uikit('/', DefaultLink));
+const UikitContext: Context<BapelUiKit> = createContext(new BapelUiKit('/', DefaultLink));
 
 export const UikitProvider = UikitContext.Provider;
 export const UikitConsumer = UikitContext.Consumer;

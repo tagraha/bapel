@@ -27,7 +27,7 @@ var _Provider = require('./Provider');
 Object.defineProperty(exports, 'default', {
   enumerable: true,
   get: function get() {
-    return _Provider.Uikit;
+    return _Provider.BapelUiKit;
   }
 });
 Object.defineProperty(exports, 'UikitConsumer', {
