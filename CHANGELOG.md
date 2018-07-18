@@ -1,3 +1,11 @@
+### 2.2.0 (2018-07-18)
+
+##### New Features
+
+* **component:**
+  *  Flex Grid component ([33927641](https://github.com/tagraha/bapel/commit/33927641209f535728d424813a9d9fbd12302bf0))
+  *  Flex Row component ([edd760cd](https://github.com/tagraha/bapel/commit/edd760cd609be7a7b30f4ffe1721b0318a208d82))
+
 #### 2.1.4 (2018-07-06)
 
 ##### Refactors
