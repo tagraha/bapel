@@ -1,3 +1,11 @@
+#### 2.2.1 (2018-07-19)
+
+##### Bug Fixes
+
+* **component:**
+  *  fix export path not resolved ([7155580d](https://github.com/tagraha/bapel/commit/7155580dcef79df3fb79a7f1e57ac2984851c839))
+  *  fix exported Grid component ([965ed5a7](https://github.com/tagraha/bapel/commit/965ed5a7650ccfbd361609993abb03e5839fcc50))
+
 ### 2.2.0 (2018-07-18)
 
 ##### New Features
