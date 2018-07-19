@@ -1,3 +1,9 @@
+#### 2.2.2 (2018-07-19)
+
+##### Build System / Dependencies
+
+* **loader:**  adding css-loader ([74649ea6](https://github.com/tagraha/bapel/commit/74649ea62158b41f3de7d1428a8ea879427cc6c3))
+
 #### 2.2.1 (2018-07-19)
 
 ##### Bug Fixes
