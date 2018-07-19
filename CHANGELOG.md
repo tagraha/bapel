@@ -1,3 +1,13 @@
+#### 2.2.6 (2018-07-19)
+
+##### Other Changes
+
+* **package:**  update package ([80d3ca0f](https://github.com/tagraha/bapel/commit/80d3ca0fcae8211576c67148c16297250060dd3b))
+
+##### Code Style Changes
+
+* **flex:**  fix flex css source ([d2c9f22d](https://github.com/tagraha/bapel/commit/d2c9f22de9bebb0eed942a532e81832f924963be))
+
 #### 2.2.5 (2018-07-19)
 
 ##### Build System / Dependencies
