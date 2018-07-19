@@ -1,3 +1,13 @@
+#### 2.2.5 (2018-07-19)
+
+##### Build System / Dependencies
+
+* **loader:**  use extract text plugin for import css ([924fea4d](https://github.com/tagraha/bapel/commit/924fea4ded5d1892b8bedca1a52fc8fc2dac9725))
+
+##### Other Changes
+
+* **package:**  update webpack ([5dda0385](https://github.com/tagraha/bapel/commit/5dda0385fe54a5def87be892bc910f81587c3f1b))
+
 #### 2.2.4 (2018-07-19)
 
 ##### Bug Fixes
