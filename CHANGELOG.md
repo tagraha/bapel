@@ -1,3 +1,13 @@
+#### 2.2.4 (2018-07-19)
+
+##### Bug Fixes
+
+* **component:**  fix Grid Component ([7a8e4221](https://github.com/tagraha/bapel/commit/7a8e4221333734295ebd10cf99d023ca933ab614))
+
+##### Code Style Changes
+
+* **Flex:**  fix Flex style ([6db9a9c2](https://github.com/tagraha/bapel/commit/6db9a9c25ec3ac8c5660cf9529e908a83ed286ab))
+
 #### 2.2.3 (2018-07-19)
 
 #### 2.2.2 (2018-07-19)
