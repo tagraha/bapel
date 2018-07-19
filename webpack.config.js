@@ -1,6 +1,7 @@
 const path = require('path');
 const entry = require('webpack-glob-entry');
 const WebpackAssetsManifest = require('webpack-assets-manifest');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: entry('./assets/**/*.*'),
@@ -24,7 +25,7 @@ module.exports = {
 
       {
         test: /\.css$/,
-        use: [ 'style-loader', 'css-loader' ]
+        loader: ExtractTextPlugin.extract('style-loader', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss')
       },
     ],
   },
