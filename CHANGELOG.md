@@ -1,3 +1,9 @@
+#### 2.2.7 (2018-07-20)
+
+##### Bug Fixes
+
+* **component:**  fix grid ([6359b742](https://github.com/tagraha/bapel/commit/6359b7422a609118e19c2feb3708a2a30da645fa))
+
 #### 2.2.6 (2018-07-19)
 
 ##### Other Changes
