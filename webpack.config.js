@@ -2,6 +2,7 @@ const path = require('path');
 const entry = require('webpack-glob-entry');
 const WebpackAssetsManifest = require('webpack-assets-manifest');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: entry('./assets/**/*.*'),
@@ -29,5 +30,12 @@ module.exports = {
       },
     ],
   },
-  plugins: [new WebpackAssetsManifest()],
+  plugins: [
+    new WebpackAssetsManifest(),
+  ],
+  optimization: {
+    minimizer: [
+      new UglifyJSPlugin()
+    ]
+  }
 };
