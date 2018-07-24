@@ -1,3 +1,17 @@
+#### 2.2.8 (2018-07-24)
+
+##### Build System / Dependencies
+
+* **webpack:**  adding webpack optimization ([02c0b5ec](https://github.com/tagraha/bapel/commit/02c0b5ec21c57c58518a27dea2b4e65b94b7a6dc))
+
+##### Bug Fixes
+
+* **validateDOMNesting:**  fixing pre inside of p html tag ([e2ef3bed](https://github.com/tagraha/bapel/commit/e2ef3bedfa1c16edb77394f5b3418e785c00e177))
+
+##### Other Changes
+
+* **component:**  remove Grid Component ([f9840971](https://github.com/tagraha/bapel/commit/f984097168d9e328b39795c152b0b7f03e663f0a))
+
 #### 2.2.7 (2018-07-20)
 
 ##### Bug Fixes
