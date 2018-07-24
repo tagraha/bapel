@@ -1,6 +1,6 @@
 {
   "name": "bapel",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "description": "made by love <dev.nugrata@gmail.com> bapel uikit for web frontend",
   "main": "dist/index.js",
   "scripts": {
