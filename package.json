@@ -2,6 +2,15 @@
   "name": "bapel",
   "version": "2.2.8",
   "description": "made by love <dev.nugrata@gmail.com> bapel uikit for web frontend",
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
   "main": "dist/index.js",
   "scripts": {
     "assets:build": "webpack",
@@ -23,7 +32,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@storybook/react": "3.4.0",
+    "@storybook/react": "^3.4.10",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
     "babel-plugin-transform-class-properties": "6.24.1",
@@ -41,11 +50,11 @@
     "flow-copy-source": "1.3.0",
     "jest": "23.1.0",
     "jest-styled-components": "5.0.1",
-    "postcss-loader": "^2.1.6",
+    "postcss-loader": "^3.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "4.3.1",
-    "react-test-renderer": "16.4.1",
+    "react-test-renderer": "^16.4.2",
     "styled-components": "^3.4.4",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.16.1",
