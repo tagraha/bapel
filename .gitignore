@@ -1,4 +1,4 @@
-package-lock.json
+yarn.lock
 .sass-cache
 yarn-error.log
 node_modules
