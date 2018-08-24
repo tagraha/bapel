@@ -18,10 +18,10 @@ const buttonLabelStyleHandler = (props: Props) => {
       styles.padding = '0rem 0.8rem';
       break;
     case 'small':
-      styles.padding = '0.3rem 1.2rem';
+      styles.padding = '0.1rem 1rem';
       break;
     default:
-      styles.padding = '0.7rem 1.2rem';
+      styles.padding = '0.5rem 1rem';
       break;
   }
 
@@ -43,9 +43,9 @@ const sizeMatcher = StyleMatcher.create('size', [
 ]);
 
 const fontSizeMatcher = StyleMatcher.create('size', [
-  ['default', '1.6rem'],
-  ['small', '1.4rem'],
-  ['xsmall', '1.2rem'],
+  ['default', 'inherit'],
+  ['small', 'inherit'],
+  ['xsmall', 'inherit'],
 ]);
 
 const defaultTextProps = props => ({
