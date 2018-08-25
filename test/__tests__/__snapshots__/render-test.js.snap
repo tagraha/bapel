@@ -1,111 +1,116 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Render Button story correctly 1`] = `
-.c3 {
+.c0 {
+  font-size: 16px;
+  font-family: 'Poppins',sans-serif;
+}
+
+.c4 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #000000;
 }
 
-.c5 {
+.c6 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.4rem;
+  font-size: .8rem;
   font-weight: 500;
   color: #000000;
 }
 
-.c7 {
+.c8 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.2rem;
+  font-size: .6rem;
   font-weight: 500;
   color: #000000;
 }
 
-.c9 {
+.c10 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #FFFFFF;
 }
 
-.c11 {
+.c12 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #00a1b0;
-}
-
-.c13 {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: #f44336;
 }
 
 .c14 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f44336;
+}
+
+.c15 {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
   font-weight: 400;
   color: #000000;
 }
 
-.c16 {
+.c17 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #2196F3;
 }
 
-.c24 {
+.c25 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.4rem;
+  font-size: .8rem;
   font-weight: 500;
   color: #FFFFFF;
 }
 
-.c27 {
+.c28 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.2rem;
+  font-size: .6rem;
   font-weight: 500;
   color: #FFFFFF;
 }
 
-.c2 {
+.c3 {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  font-size: 1.6rem;
-  padding: 0.7rem 1.2rem;
+  font-size: inherit;
+  padding: 0.5rem 1rem;
 }
 
-.c4 {
+.c5 {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  font-size: 1.4rem;
-  padding: 0.3rem 1.2rem;
+  font-size: inherit;
+  padding: 0.1rem 1rem;
 }
 
-.c6 {
+.c7 {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: inherit;
   padding: 0rem 0.8rem;
 }
 
-.c37 {
+.c38 {
   min-width: 1.6rem;
   height: 1.6rem;
   background: #f44336;
@@ -123,92 +128,92 @@ exports[`Render Button story correctly 1`] = `
   padding: 0 0.4rem;
 }
 
-.c17 {
+.c18 {
   display: table-cell;
   vertical-align: middle;
   width: 1px;
 }
 
-.c18 {
+.c19 {
   position: relative;
   display: block;
   padding: 0.7rem 0 .7rem .8rem;
 }
 
-.c22 {
+.c23 {
   position: relative;
   display: block;
   padding: 0.5rem 0 .5rem .6rem;
 }
 
-.c25 {
+.c26 {
   position: relative;
   display: block;
   padding: 0.3rem 0 .3rem .4rem;
 }
 
-.c28 {
+.c29 {
   position: relative;
   display: block;
   padding: 0.7rem .8rem .7rem 0;
 }
 
-.c29 {
+.c30 {
   position: relative;
   display: block;
   padding: 0.5rem .6rem .5rem 0;
 }
 
-.c30 {
+.c31 {
   position: relative;
   display: block;
   padding: 0.3rem .4rem .3rem 0;
 }
 
-.c31 {
+.c32 {
   position: relative;
   display: block;
   padding: .7rem .8rem;
 }
 
-.c32 {
+.c33 {
   position: relative;
   display: block;
   padding: .5rem .6rem;
 }
 
-.c33 {
+.c34 {
   position: relative;
   display: block;
   padding: .3rem .4rem;
 }
 
-.c20 {
+.c21 {
   opacity: 1;
 }
 
-.c19 {
+.c20 {
   display: block;
   position: relative;
   margin: 0 auto;
 }
 
-.c21 {
+.c22 {
   width: 2.4rem;
   height: 2.4rem;
 }
 
-.c23 {
+.c24 {
   width: 1.8rem;
   height: 1.8rem;
 }
 
-.c26 {
+.c27 {
   width: 1.2rem;
   height: 1.2rem;
 }
 
-.c0 {
+.c1 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -221,7 +226,6 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
@@ -239,11 +243,11 @@ exports[`Render Button story correctly 1`] = `
   vertical-align: middle;
 }
 
-.c0:hover {
+.c1:hover {
   background-color: #d2d2d2;
 }
 
-.c8 {
+.c9 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -256,7 +260,6 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
@@ -274,11 +277,11 @@ exports[`Render Button story correctly 1`] = `
   vertical-align: middle;
 }
 
-.c8:hover {
+.c9:hover {
   background-color: #30588c;
 }
 
-.c10 {
+.c11 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -291,7 +294,6 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
@@ -309,11 +311,11 @@ exports[`Render Button story correctly 1`] = `
   vertical-align: middle;
 }
 
-.c10:hover {
+.c11:hover {
   background-color: #fff;
 }
 
-.c12 {
+.c13 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -326,7 +328,6 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
@@ -344,11 +345,11 @@ exports[`Render Button story correctly 1`] = `
   vertical-align: middle;
 }
 
-.c12:hover {
+.c13:hover {
   background-color: #e4e4e4;
 }
 
-.c15 {
+.c16 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -361,7 +362,6 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   position: relative;
@@ -377,43 +377,8 @@ exports[`Render Button story correctly 1`] = `
   vertical-align: middle;
 }
 
-.c15:hover {
+.c16:hover {
   background-color: transparent;
-}
-
-.c34 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-family: inherit;
-  padding: 0;
-  outline: 0;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  line-height: 2.4rem;
-  -webkit-text-decoration: none !important;
-  text-decoration: none !important;
-  background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  border-radius: 0rem;
-  width: 100%;
-  background-color: #3d70b2;
-  color: '';
-  border: solid 0.1rem rgba(0,0,0,0.24);
-  border-bottom-color: rgba(0,0,0,0.32);
-  cursor: pointer;
-  opacity: 1;
-  vertical-align: middle;
-}
-
-.c34:hover {
-  background-color: #30588c;
 }
 
 .c35 {
@@ -429,15 +394,14 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
   position: relative;
   overflow: hidden;
   display: inline-block;
-  border-radius: 8rem;
-  width: auto;
+  border-radius: 0rem;
+  width: 100%;
   background-color: #3d70b2;
   color: '';
   border: solid 0.1rem rgba(0,0,0,0.24);
@@ -464,7 +428,40 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+  background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 8rem;
+  width: auto;
+  background-color: #3d70b2;
+  color: '';
+  border: solid 0.1rem rgba(0,0,0,0.24);
+  border-bottom-color: rgba(0,0,0,0.32);
+  cursor: pointer;
+  opacity: 1;
+  vertical-align: middle;
+}
+
+.c36:hover {
+  background-color: #30588c;
+}
+
+.c37 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: inherit;
+  padding: 0;
+  outline: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
@@ -482,44 +479,8 @@ exports[`Render Button story correctly 1`] = `
   vertical-align: middle;
 }
 
-.c36:hover {
+.c37:hover {
   background-color: #fff;
-}
-
-.c40 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-family: inherit;
-  padding: 0;
-  outline: 0;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  line-height: 2.4rem;
-  -webkit-text-decoration: none !important;
-  text-decoration: none !important;
-  background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  border-radius: 8rem 0 0 8rem;
-  width: 100%;
-  background-color: #fff;
-  color: '';
-  border: solid 0.1rem rgba(0,0,0,0.24);
-  border-bottom-color: rgba(0,0,0,0.32);
-  border-right: 0;
-  cursor: pointer;
-  opacity: 1;
-  vertical-align: middle;
-}
-
-.c40:hover {
-  background-color: #d2d2d2;
 }
 
 .c41 {
@@ -535,14 +496,13 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
   position: relative;
   overflow: hidden;
   display: inline-block;
-  border-radius: 0;
+  border-radius: 8rem 0 0 8rem;
   width: 100%;
   background-color: #fff;
   color: '';
@@ -571,7 +531,41 @@ exports[`Render Button story correctly 1`] = `
   outline: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  line-height: 2.4rem;
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+  background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 0;
+  width: 100%;
+  background-color: #fff;
+  color: '';
+  border: solid 0.1rem rgba(0,0,0,0.24);
+  border-bottom-color: rgba(0,0,0,0.32);
+  border-right: 0;
+  cursor: pointer;
+  opacity: 1;
+  vertical-align: middle;
+}
+
+.c42:hover {
+  background-color: #d2d2d2;
+}
+
+.c43 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: inherit;
+  padding: 0;
+  outline: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   -webkit-text-decoration: none !important;
   text-decoration: none !important;
   background-image: linear-gradient( 180deg, hsla(0,0%,100%,0.1), hsla(0,0%,100%,0) );
@@ -589,20 +583,20 @@ exports[`Render Button story correctly 1`] = `
   vertical-align: middle;
 }
 
-.c42:hover {
+.c43:hover {
   background-color: #d2d2d2;
 }
 
-.c1 {
+.c2 {
   display: table;
   width: 100%;
 }
 
-.c38 {
+.c39 {
   display: table;
 }
 
-.c39 {
+.c40 {
   display: table-cell;
   vertical-align: middle;
 }
@@ -642,29 +636,33 @@ exports[`Render Button story correctly 1`] = `
           </code>
         </td>
         <td>
-          <button
+          <div
             className="c0"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
           >
-            <span
+            <button
               className="c1"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
                   className="c3"
-                  color="regular"
-                  size="regular"
+                  size="default"
                 >
-                  Default
+                  <span
+                    className="c4"
+                    color="regular"
+                    size="regular"
+                  >
+                    Default
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
         <td>
           <code>
@@ -679,29 +677,33 @@ exports[`Render Button story correctly 1`] = `
           </code>
         </td>
         <td>
-          <button
+          <div
             className="c0"
-            disabled={false}
-            onClick={[Function]}
-            size="small"
           >
-            <span
+            <button
               className="c1"
+              disabled={false}
+              onClick={[Function]}
+              size="small"
             >
               <span
-                className="c4"
-                size="small"
+                className="c2"
               >
                 <span
                   className="c5"
-                  color="regular"
                   size="small"
                 >
-                  Small
+                  <span
+                    className="c6"
+                    color="regular"
+                    size="small"
+                  >
+                    Small
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
         <td>
           <code>
@@ -716,29 +718,33 @@ exports[`Render Button story correctly 1`] = `
           </code>
         </td>
         <td>
-          <button
+          <div
             className="c0"
-            disabled={false}
-            onClick={[Function]}
-            size="xsmall"
           >
-            <span
+            <button
               className="c1"
+              disabled={false}
+              onClick={[Function]}
+              size="xsmall"
             >
               <span
-                className="c6"
-                size="xsmall"
+                className="c2"
               >
                 <span
                   className="c7"
-                  color="regular"
-                  size="micro"
+                  size="xsmall"
                 >
-                  XSmall
+                  <span
+                    className="c8"
+                    color="regular"
+                    size="micro"
+                  >
+                    XSmall
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
         <td>
           <code>
@@ -783,29 +789,33 @@ exports[`Render Button story correctly 1`] = `
         <td
           colSpan="2"
         >
-          <button
+          <div
             className="c0"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
           >
-            <span
+            <button
               className="c1"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
                   className="c3"
-                  color="regular"
-                  size="regular"
+                  size="default"
                 >
-                  Default
+                  <span
+                    className="c4"
+                    color="regular"
+                    size="regular"
+                  >
+                    Default
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -817,29 +827,33 @@ exports[`Render Button story correctly 1`] = `
         <td
           colSpan="2"
         >
-          <button
-            className="c8"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c9"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
-                  className="c9"
-                  color="white"
-                  size="regular"
+                  className="c3"
+                  size="default"
                 >
-                  Primary
+                  <span
+                    className="c10"
+                    color="white"
+                    size="regular"
+                  >
+                    Primary
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -851,29 +865,33 @@ exports[`Render Button story correctly 1`] = `
         <td
           colSpan="2"
         >
-          <button
-            className="c10"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c11"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
-                  className="c11"
-                  color="cyan"
-                  size="regular"
+                  className="c3"
+                  size="default"
                 >
-                  Line
+                  <span
+                    className="c12"
+                    color="cyan"
+                    size="regular"
+                  >
+                    Line
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -883,54 +901,62 @@ exports[`Render Button story correctly 1`] = `
           </code>
         </td>
         <td>
-          <button
-            className="c12"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c13"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
-                  className="c13"
-                  color="red"
-                  size="regular"
+                  className="c3"
+                  size="default"
                 >
-                  Danger
+                  <span
+                    className="c14"
+                    color="red"
+                    size="regular"
+                  >
+                    Danger
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
         <td>
-          <button
-            className="c12"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c13"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
-                  className="c14"
-                  color="regular"
-                  size="regular"
+                  className="c3"
+                  size="default"
                 >
-                  Danger Text Override
+                  <span
+                    className="c15"
+                    color="regular"
+                    size="regular"
+                  >
+                    Danger Text Override
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -940,54 +966,62 @@ exports[`Render Button story correctly 1`] = `
           </code>
         </td>
         <td>
-          <button
-            className="c15"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c16"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
                   className="c3"
-                  color="regular"
-                  size="regular"
+                  size="default"
                 >
-                  link
+                  <span
+                    className="c4"
+                    color="regular"
+                    size="regular"
+                  >
+                    link
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
         <td>
-          <button
-            className="c15"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c16"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
-                  className="c16"
-                  color="blue"
-                  size="regular"
+                  className="c3"
+                  size="default"
                 >
-                  link text override
+                  <span
+                    className="c17"
+                    color="blue"
+                    size="regular"
+                  >
+                    link text override
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
     </tbody>
@@ -1010,184 +1044,196 @@ exports[`Render Button story correctly 1`] = `
           Left icon
         </td>
         <td>
-          <button
-            className="c8"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c9"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
-                <span
+                <div
                   className="c18"
-                  size="default"
                 >
                   <span
                     className="c19"
                     size="default"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="default"
                     >
                       <div
                         className="c21"
-                        size="default"
+                        opacity={1}
                       >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "2.4rem",
-                              "width": "2.4rem",
+                        <div
+                          className="c22"
+                          size="default"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "2.4rem",
+                                "width": "2.4rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </span>
+                  </span>
+                </div>
+                <span
+                  className="c3"
+                  size="default"
+                >
+                  <span
+                    className="c10"
+                    color="white"
+                    size="regular"
+                  >
+                    Notification
                   </span>
                 </span>
-              </div>
-              <span
-                className="c2"
-                size="default"
-              >
-                <span
-                  className="c9"
-                  color="white"
-                  size="regular"
-                >
-                  Notification
-                </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
         <td>
-          <button
-            className="c8"
-            disabled={false}
-            onClick={[Function]}
-            size="small"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c9"
+              disabled={false}
+              onClick={[Function]}
+              size="small"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c23"
+                    size="small"
+                  >
+                    <span
+                      className="c20"
+                      size="small"
+                    >
+                      <div
+                        className="c21"
+                        opacity={1}
+                      >
+                        <div
+                          className="c24"
+                          size="small"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "1.8rem",
+                                "width": "1.8rem",
+                              }
+                            }
+                          />
+                        </div>
+                      </div>
+                    </span>
+                  </span>
+                </div>
                 <span
-                  className="c22"
+                  className="c5"
                   size="small"
                 >
                   <span
-                    className="c19"
+                    className="c25"
+                    color="white"
                     size="small"
                   >
-                    <div
-                      className="c20"
-                      opacity={1}
-                    >
-                      <div
-                        className="c23"
-                        size="small"
-                      >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "1.8rem",
-                              "width": "1.8rem",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
+                    Notification
                   </span>
                 </span>
-              </div>
-              <span
-                className="c4"
-                size="small"
-              >
-                <span
-                  className="c24"
-                  color="white"
-                  size="small"
-                >
-                  Notification
-                </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
         <td>
-          <button
-            className="c8"
-            disabled={false}
-            onClick={[Function]}
-            size="xsmall"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c9"
+              disabled={false}
+              onClick={[Function]}
+              size="xsmall"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c26"
+                    size="xsmall"
+                  >
+                    <span
+                      className="c20"
+                      size="xsmall"
+                    >
+                      <div
+                        className="c21"
+                        opacity={1}
+                      >
+                        <div
+                          className="c27"
+                          size="xsmall"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "1.2rem",
+                                "width": "1.2rem",
+                              }
+                            }
+                          />
+                        </div>
+                      </div>
+                    </span>
+                  </span>
+                </div>
                 <span
-                  className="c25"
+                  className="c7"
                   size="xsmall"
                 >
                   <span
-                    className="c19"
-                    size="xsmall"
+                    className="c28"
+                    color="white"
+                    size="micro"
                   >
-                    <div
-                      className="c20"
-                      opacity={1}
-                    >
-                      <div
-                        className="c26"
-                        size="xsmall"
-                      >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "1.2rem",
-                              "width": "1.2rem",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
+                    Notification
                   </span>
                 </span>
-              </div>
-              <span
-                className="c6"
-                size="xsmall"
-              >
-                <span
-                  className="c27"
-                  color="white"
-                  size="micro"
-                >
-                  Notification
-                </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -1195,184 +1241,196 @@ exports[`Render Button story correctly 1`] = `
           Right icon
         </td>
         <td>
-          <button
-            className="c8"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c9"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
-                  className="c9"
-                  color="white"
-                  size="regular"
-                >
-                  Notification
-                </span>
-              </span>
-              <div
-                className="c17"
-              >
-                <span
-                  className="c28"
+                  className="c3"
                   size="default"
                 >
                   <span
-                    className="c19"
+                    className="c10"
+                    color="white"
+                    size="regular"
+                  >
+                    Notification
+                  </span>
+                </span>
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c29"
                     size="default"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="default"
                     >
                       <div
                         className="c21"
-                        size="default"
+                        opacity={1}
                       >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "2.4rem",
-                              "width": "2.4rem",
+                        <div
+                          className="c22"
+                          size="default"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "2.4rem",
+                                "width": "2.4rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </span>
                   </span>
-                </span>
-              </div>
-            </span>
-          </button>
+                </div>
+              </span>
+            </button>
+          </div>
         </td>
         <td>
-          <button
-            className="c8"
-            disabled={false}
-            onClick={[Function]}
-            size="small"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c9"
+              disabled={false}
+              onClick={[Function]}
+              size="small"
             >
               <span
-                className="c4"
-                size="small"
+                className="c2"
               >
                 <span
-                  className="c24"
-                  color="white"
-                  size="small"
-                >
-                  Notification
-                </span>
-              </span>
-              <div
-                className="c17"
-              >
-                <span
-                  className="c29"
+                  className="c5"
                   size="small"
                 >
                   <span
-                    className="c19"
+                    className="c25"
+                    color="white"
                     size="small"
                   >
-                    <div
-                      className="c20"
-                      opacity={1}
-                    >
-                      <div
-                        className="c23"
-                        size="small"
-                      >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "1.8rem",
-                              "width": "1.8rem",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
+                    Notification
                   </span>
                 </span>
-              </div>
-            </span>
-          </button>
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c30"
+                    size="small"
+                  >
+                    <span
+                      className="c20"
+                      size="small"
+                    >
+                      <div
+                        className="c21"
+                        opacity={1}
+                      >
+                        <div
+                          className="c24"
+                          size="small"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "1.8rem",
+                                "width": "1.8rem",
+                              }
+                            }
+                          />
+                        </div>
+                      </div>
+                    </span>
+                  </span>
+                </div>
+              </span>
+            </button>
+          </div>
         </td>
         <td>
-          <button
-            className="c8"
-            disabled={false}
-            onClick={[Function]}
-            size="xsmall"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c9"
+              disabled={false}
+              onClick={[Function]}
+              size="xsmall"
             >
               <span
-                className="c6"
-                size="xsmall"
+                className="c2"
               >
                 <span
-                  className="c27"
-                  color="white"
-                  size="micro"
-                >
-                  Notification
-                </span>
-              </span>
-              <div
-                className="c17"
-              >
-                <span
-                  className="c30"
+                  className="c7"
                   size="xsmall"
                 >
                   <span
-                    className="c19"
-                    size="xsmall"
+                    className="c28"
+                    color="white"
+                    size="micro"
                   >
-                    <div
-                      className="c20"
-                      opacity={1}
-                    >
-                      <div
-                        className="c26"
-                        size="xsmall"
-                      >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "1.2rem",
-                              "width": "1.2rem",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
+                    Notification
                   </span>
                 </span>
-              </div>
-            </span>
-          </button>
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c31"
+                    size="xsmall"
+                  >
+                    <span
+                      className="c20"
+                      size="xsmall"
+                    >
+                      <div
+                        className="c21"
+                        opacity={1}
+                      >
+                        <div
+                          className="c27"
+                          size="xsmall"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "1.2rem",
+                                "width": "1.2rem",
+                              }
+                            }
+                          />
+                        </div>
+                      </div>
+                    </span>
+                  </span>
+                </div>
+              </span>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -1380,145 +1438,157 @@ exports[`Render Button story correctly 1`] = `
           Icon only
         </td>
         <td>
-          <button
+          <div
             className="c0"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
           >
-            <span
+            <button
               className="c1"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
-                <span
-                  className="c31"
-                  size="default"
+                <div
+                  className="c18"
                 >
                   <span
-                    className="c19"
+                    className="c32"
                     size="default"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="default"
                     >
                       <div
                         className="c21"
-                        size="default"
+                        opacity={1}
                       >
-                        <img
-                          src="/assets/icons/18-plus-3bb8f3b7e4a01781d8ceab5ea3384993.svg"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "2.4rem",
-                              "width": "2.4rem",
+                        <div
+                          className="c22"
+                          size="default"
+                        >
+                          <img
+                            src="/assets/icons/18-plus-9b8c6f55c22824cb28832581b18dc249.svg"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "2.4rem",
+                                "width": "2.4rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </span>
                   </span>
-                </span>
-              </div>
-            </span>
-          </button>
+                </div>
+              </span>
+            </button>
+          </div>
         </td>
         <td>
-          <button
+          <div
             className="c0"
-            disabled={false}
-            onClick={[Function]}
-            size="small"
           >
-            <span
+            <button
               className="c1"
+              disabled={false}
+              onClick={[Function]}
+              size="small"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
-                <span
-                  className="c32"
-                  size="small"
+                <div
+                  className="c18"
                 >
                   <span
-                    className="c19"
+                    className="c33"
                     size="small"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="small"
                     >
                       <div
-                        className="c23"
-                        size="small"
+                        className="c21"
+                        opacity={1}
                       >
-                        <img
-                          src="/assets/icons/18-plus-3bb8f3b7e4a01781d8ceab5ea3384993.svg"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "1.8rem",
-                              "width": "1.8rem",
+                        <div
+                          className="c24"
+                          size="small"
+                        >
+                          <img
+                            src="/assets/icons/18-plus-9b8c6f55c22824cb28832581b18dc249.svg"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "1.8rem",
+                                "width": "1.8rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </span>
                   </span>
-                </span>
-              </div>
-            </span>
-          </button>
+                </div>
+              </span>
+            </button>
+          </div>
         </td>
         <td>
-          <button
+          <div
             className="c0"
-            disabled={false}
-            onClick={[Function]}
-            size="xsmall"
           >
-            <span
+            <button
               className="c1"
+              disabled={false}
+              onClick={[Function]}
+              size="xsmall"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
-                <span
-                  className="c33"
-                  size="xsmall"
+                <div
+                  className="c18"
                 >
                   <span
-                    className="c19"
+                    className="c34"
                     size="xsmall"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="xsmall"
                     >
                       <div
-                        className="c26"
-                        size="xsmall"
+                        className="c21"
+                        opacity={1}
                       >
-                        <img
-                          src="/assets/icons/18-plus-3bb8f3b7e4a01781d8ceab5ea3384993.svg"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "1.2rem",
-                              "width": "1.2rem",
+                        <div
+                          className="c27"
+                          size="xsmall"
+                        >
+                          <img
+                            src="/assets/icons/18-plus-9b8c6f55c22824cb28832581b18dc249.svg"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "1.2rem",
+                                "width": "1.2rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </span>
                   </span>
-                </span>
-              </div>
-            </span>
-          </button>
+                </div>
+              </span>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -1528,29 +1598,33 @@ exports[`Render Button story correctly 1`] = `
         <td
           colSpan="3"
         >
-          <button
-            className="c34"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c35"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
               <span
                 className="c2"
-                size="default"
               >
                 <span
-                  className="c9"
-                  color="white"
-                  size="regular"
+                  className="c3"
+                  size="default"
                 >
-                  Button
+                  <span
+                    className="c10"
+                    color="white"
+                    size="regular"
+                  >
+                    Button
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -1560,64 +1634,68 @@ exports[`Render Button story correctly 1`] = `
         <td
           colSpan="3"
         >
-          <button
-            className="c34"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c35"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
-                <span
+                <div
                   className="c18"
-                  size="default"
                 >
                   <span
                     className="c19"
                     size="default"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="default"
                     >
                       <div
                         className="c21"
-                        size="default"
+                        opacity={1}
                       >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "2.4rem",
-                              "width": "2.4rem",
+                        <div
+                          className="c22"
+                          size="default"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "2.4rem",
+                                "width": "2.4rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </span>
+                  </span>
+                </div>
+                <span
+                  className="c3"
+                  size="default"
+                >
+                  <span
+                    className="c10"
+                    color="white"
+                    size="regular"
+                  >
+                    Button
                   </span>
                 </span>
-              </div>
-              <span
-                className="c2"
-                size="default"
-              >
-                <span
-                  className="c9"
-                  color="white"
-                  size="regular"
-                >
-                  Button
-                </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -1627,64 +1705,68 @@ exports[`Render Button story correctly 1`] = `
         <td
           colSpan="3"
         >
-          <button
-            className="c35"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c36"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
-                <span
+                <div
                   className="c18"
-                  size="default"
                 >
                   <span
                     className="c19"
                     size="default"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="default"
                     >
                       <div
                         className="c21"
-                        size="default"
+                        opacity={1}
                       >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "2.4rem",
-                              "width": "2.4rem",
+                        <div
+                          className="c22"
+                          size="default"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "2.4rem",
+                                "width": "2.4rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </span>
+                  </span>
+                </div>
+                <span
+                  className="c3"
+                  size="default"
+                >
+                  <span
+                    className="c10"
+                    color="white"
+                    size="regular"
+                  >
+                    Button
                   </span>
                 </span>
-              </div>
-              <span
-                className="c2"
-                size="default"
-              >
-                <span
-                  className="c9"
-                  color="white"
-                  size="regular"
-                >
-                  Button
-                </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -1694,64 +1776,68 @@ exports[`Render Button story correctly 1`] = `
         <td
           colSpan="3"
         >
-          <button
-            className="c36"
-            disabled={true}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c37"
+              disabled={true}
+              onClick={[Function]}
+              size="default"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
-                <span
+                <div
                   className="c18"
-                  size="default"
                 >
                   <span
                     className="c19"
                     size="default"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="default"
                     >
                       <div
                         className="c21"
-                        size="default"
+                        opacity={1}
                       >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/black/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "2.4rem",
-                              "width": "2.4rem",
+                        <div
+                          className="c22"
+                          size="default"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/black/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "2.4rem",
+                                "width": "2.4rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </span>
                   </span>
-                </span>
-              </div>
-              <span
-                className="c2"
-                size="default"
-              >
+                </div>
                 <span
                   className="c3"
-                  color="regular"
-                  size="regular"
+                  size="default"
                 >
-                  Button
+                  <span
+                    className="c4"
+                    color="regular"
+                    size="regular"
+                  >
+                    Button
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -1761,69 +1847,73 @@ exports[`Render Button story correctly 1`] = `
         <td
           colSpan="3"
         >
-          <button
-            className="c8"
-            disabled={false}
-            onClick={[Function]}
-            size="default"
+          <div
+            className="c0"
           >
-            <span
-              className="c1"
+            <button
+              className="c9"
+              disabled={false}
+              onClick={[Function]}
+              size="default"
             >
-              <div
-                className="c17"
+              <span
+                className="c2"
               >
-                <span
+                <div
                   className="c18"
-                  size="default"
                 >
                   <span
                     className="c19"
                     size="default"
                   >
-                    <div
+                    <span
                       className="c20"
-                      opacity={1}
+                      size="default"
                     >
                       <div
                         className="c21"
-                        size="default"
+                        opacity={1}
                       >
-                        <img
-                          alt=""
-                          src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
-                          style={
-                            Object {
-                              "display": "block",
-                              "height": "2.4rem",
-                              "width": "2.4rem",
+                        <div
+                          className="c22"
+                          size="default"
+                        >
+                          <img
+                            alt=""
+                            src="http://mockup.sistemsista.com/icon/png/white/icon-bullhorn.png"
+                            style={
+                              Object {
+                                "display": "block",
+                                "height": "2.4rem",
+                                "width": "2.4rem",
+                              }
                             }
-                          }
-                        />
+                          />
+                        </div>
                       </div>
+                    </span>
+                    <div
+                      className="c38"
+                    >
+                      9
                     </div>
                   </span>
-                  <div
-                    className="c37"
-                  >
-                    9
-                  </div>
-                </span>
-              </div>
-              <span
-                className="c2"
-                size="default"
-              >
+                </div>
                 <span
-                  className="c9"
-                  color="white"
-                  size="regular"
+                  className="c3"
+                  size="default"
                 >
-                  Button
+                  <span
+                    className="c10"
+                    color="white"
+                    size="regular"
+                  >
+                    Button
+                  </span>
                 </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </div>
         </td>
       </tr>
     </tbody>
@@ -1847,318 +1937,338 @@ exports[`Render Button story correctly 1`] = `
         </td>
         <td>
           <div
-            className="c38"
+            className="c39"
           >
             <div
-              className="c39"
+              className="c40"
             >
-              <button
-                className="c40"
-                disabled={false}
-                onClick={[Function]}
-                size="default"
+              <div
+                className="c0"
               >
-                <span
-                  className="c1"
+                <button
+                  className="c41"
+                  disabled={false}
+                  onClick={[Function]}
+                  size="default"
                 >
-                  <div
-                    className="c17"
+                  <span
+                    className="c2"
                   >
-                    <span
+                    <div
                       className="c18"
-                      size="default"
                     >
                       <span
                         className="c19"
                         size="default"
                       >
-                        <div
+                        <span
                           className="c20"
-                          opacity={1}
+                          size="default"
                         >
                           <div
                             className="c21"
-                            size="default"
+                            opacity={1}
                           >
-                            <img
-                              src="/assets/icons/sosmed-facebook-eeea5142234aa29cdda43fb6a156fb45.svg"
-                              style={
-                                Object {
-                                  "display": "block",
-                                  "height": "2.4rem",
-                                  "width": "2.4rem",
+                            <div
+                              className="c22"
+                              size="default"
+                            >
+                              <img
+                                src="/assets/icons/sosmed-facebook-748e9beb6b3f881009a68cf748b56252.svg"
+                                style={
+                                  Object {
+                                    "display": "block",
+                                    "height": "2.4rem",
+                                    "width": "2.4rem",
+                                  }
                                 }
-                              }
-                            />
+                              />
+                            </div>
                           </div>
-                        </div>
+                        </span>
                       </span>
-                    </span>
-                  </div>
-                  <span
-                    className="c2"
-                    size="default"
-                  >
+                    </div>
                     <span
                       className="c3"
-                      color="regular"
-                      size="regular"
+                      size="default"
                     >
-                      facebook
+                      <span
+                        className="c4"
+                        color="regular"
+                        size="regular"
+                      >
+                        facebook
+                      </span>
                     </span>
                   </span>
-                </span>
-              </button>
+                </button>
+              </div>
             </div>
             <div
-              className="c39"
+              className="c40"
             >
-              <button
-                className="c41"
-                disabled={false}
-                onClick={[Function]}
-                size="default"
+              <div
+                className="c0"
               >
-                <span
-                  className="c1"
+                <button
+                  className="c42"
+                  disabled={false}
+                  onClick={[Function]}
+                  size="default"
                 >
-                  <div
-                    className="c17"
+                  <span
+                    className="c2"
                   >
-                    <span
+                    <div
                       className="c18"
-                      size="default"
                     >
                       <span
                         className="c19"
                         size="default"
                       >
-                        <div
+                        <span
                           className="c20"
-                          opacity={1}
+                          size="default"
                         >
                           <div
                             className="c21"
-                            size="default"
+                            opacity={1}
                           >
-                            <img
-                              src="/assets/icons/sosmed-facebook-eeea5142234aa29cdda43fb6a156fb45.svg"
-                              style={
-                                Object {
-                                  "display": "block",
-                                  "height": "2.4rem",
-                                  "width": "2.4rem",
+                            <div
+                              className="c22"
+                              size="default"
+                            >
+                              <img
+                                src="/assets/icons/sosmed-facebook-748e9beb6b3f881009a68cf748b56252.svg"
+                                style={
+                                  Object {
+                                    "display": "block",
+                                    "height": "2.4rem",
+                                    "width": "2.4rem",
+                                  }
                                 }
-                              }
-                            />
+                              />
+                            </div>
                           </div>
-                        </div>
+                        </span>
                       </span>
-                    </span>
-                  </div>
-                  <span
-                    className="c2"
-                    size="default"
-                  >
+                    </div>
                     <span
                       className="c3"
-                      color="regular"
-                      size="regular"
+                      size="default"
                     >
-                      facebook
+                      <span
+                        className="c4"
+                        color="regular"
+                        size="regular"
+                      >
+                        facebook
+                      </span>
                     </span>
                   </span>
-                </span>
-              </button>
+                </button>
+              </div>
             </div>
             <div
-              className="c39"
+              className="c40"
             >
-              <button
-                className="c42"
-                disabled={false}
-                onClick={[Function]}
-                size="default"
+              <div
+                className="c0"
               >
-                <span
-                  className="c1"
+                <button
+                  className="c43"
+                  disabled={false}
+                  onClick={[Function]}
+                  size="default"
                 >
-                  <div
-                    className="c17"
+                  <span
+                    className="c2"
                   >
-                    <span
+                    <div
                       className="c18"
-                      size="default"
                     >
                       <span
                         className="c19"
                         size="default"
                       >
-                        <div
+                        <span
                           className="c20"
-                          opacity={1}
+                          size="default"
                         >
                           <div
                             className="c21"
-                            size="default"
+                            opacity={1}
                           >
-                            <img
-                              src="/assets/icons/sosmed-facebook-eeea5142234aa29cdda43fb6a156fb45.svg"
-                              style={
-                                Object {
-                                  "display": "block",
-                                  "height": "2.4rem",
-                                  "width": "2.4rem",
+                            <div
+                              className="c22"
+                              size="default"
+                            >
+                              <img
+                                src="/assets/icons/sosmed-facebook-748e9beb6b3f881009a68cf748b56252.svg"
+                                style={
+                                  Object {
+                                    "display": "block",
+                                    "height": "2.4rem",
+                                    "width": "2.4rem",
+                                  }
                                 }
-                              }
-                            />
+                              />
+                            </div>
                           </div>
-                        </div>
+                        </span>
                       </span>
-                    </span>
-                  </div>
-                  <span
-                    className="c2"
-                    size="default"
-                  >
+                    </div>
                     <span
                       className="c3"
-                      color="regular"
-                      size="regular"
+                      size="default"
                     >
-                      facebook
+                      <span
+                        className="c4"
+                        color="regular"
+                        size="regular"
+                      >
+                        facebook
+                      </span>
                     </span>
                   </span>
-                </span>
-              </button>
+                </button>
+              </div>
             </div>
           </div>
         </td>
         <td>
           <div
-            className="c38"
+            className="c39"
           >
             <div
-              className="c39"
+              className="c40"
             >
-              <button
-                className="c40"
-                disabled={false}
-                onClick={[Function]}
-                size="default"
+              <div
+                className="c0"
               >
-                <span
-                  className="c1"
+                <button
+                  className="c41"
+                  disabled={false}
+                  onClick={[Function]}
+                  size="default"
                 >
-                  <div
-                    className="c17"
+                  <span
+                    className="c2"
                   >
-                    <span
+                    <div
                       className="c18"
-                      size="default"
                     >
                       <span
                         className="c19"
                         size="default"
                       >
-                        <div
+                        <span
                           className="c20"
-                          opacity={1}
+                          size="default"
                         >
                           <div
                             className="c21"
-                            size="default"
+                            opacity={1}
                           >
-                            <img
-                              src="/assets/icons/sosmed-facebook-eeea5142234aa29cdda43fb6a156fb45.svg"
-                              style={
-                                Object {
-                                  "display": "block",
-                                  "height": "2.4rem",
-                                  "width": "2.4rem",
+                            <div
+                              className="c22"
+                              size="default"
+                            >
+                              <img
+                                src="/assets/icons/sosmed-facebook-748e9beb6b3f881009a68cf748b56252.svg"
+                                style={
+                                  Object {
+                                    "display": "block",
+                                    "height": "2.4rem",
+                                    "width": "2.4rem",
+                                  }
                                 }
-                              }
-                            />
+                              />
+                            </div>
                           </div>
-                        </div>
+                        </span>
                       </span>
-                    </span>
-                  </div>
-                  <span
-                    className="c2"
-                    size="default"
-                  >
+                    </div>
                     <span
                       className="c3"
-                      color="regular"
-                      size="regular"
+                      size="default"
                     >
-                      Text
+                      <span
+                        className="c4"
+                        color="regular"
+                        size="regular"
+                      >
+                        Text
+                      </span>
                     </span>
                   </span>
-                </span>
-              </button>
+                </button>
+              </div>
             </div>
             <div
-              className="c39"
+              className="c40"
             >
-              <button
-                className="c42"
-                disabled={false}
-                onClick={[Function]}
-                size="default"
+              <div
+                className="c0"
               >
-                <span
-                  className="c1"
+                <button
+                  className="c43"
+                  disabled={false}
+                  onClick={[Function]}
+                  size="default"
                 >
-                  <div
-                    className="c17"
+                  <span
+                    className="c2"
                   >
-                    <span
+                    <div
                       className="c18"
-                      size="default"
                     >
                       <span
                         className="c19"
                         size="default"
                       >
-                        <div
+                        <span
                           className="c20"
-                          opacity={1}
+                          size="default"
                         >
                           <div
                             className="c21"
-                            size="default"
+                            opacity={1}
                           >
-                            <img
-                              src="/assets/icons/sosmed-facebook-eeea5142234aa29cdda43fb6a156fb45.svg"
-                              style={
-                                Object {
-                                  "display": "block",
-                                  "height": "2.4rem",
-                                  "width": "2.4rem",
+                            <div
+                              className="c22"
+                              size="default"
+                            >
+                              <img
+                                src="/assets/icons/sosmed-facebook-748e9beb6b3f881009a68cf748b56252.svg"
+                                style={
+                                  Object {
+                                    "display": "block",
+                                    "height": "2.4rem",
+                                    "width": "2.4rem",
+                                  }
                                 }
-                              }
-                            />
+                              />
+                            </div>
                           </div>
-                        </div>
+                        </span>
                       </span>
-                    </span>
-                  </div>
-                  <span
-                    className="c2"
-                    size="default"
-                  >
+                    </div>
                     <span
                       className="c3"
-                      color="regular"
-                      size="regular"
+                      size="default"
                     >
-                      Text
+                      <span
+                        className="c4"
+                        color="regular"
+                        size="regular"
+                      >
+                        Text
+                      </span>
                     </span>
                   </span>
-                </span>
-              </button>
+                </button>
+              </div>
             </div>
           </div>
         </td>
@@ -2171,190 +2281,202 @@ exports[`Render Button story correctly 1`] = `
           colSpan="2"
         >
           <div
-            className="c38"
+            className="c39"
           >
             <div
-              className="c39"
+              className="c40"
             >
-              <button
-                className="c40"
-                disabled={false}
-                onClick={[Function]}
-                size="small"
+              <div
+                className="c0"
               >
-                <span
-                  className="c1"
+                <button
+                  className="c41"
+                  disabled={false}
+                  onClick={[Function]}
+                  size="small"
                 >
-                  <div
-                    className="c17"
+                  <span
+                    className="c2"
                   >
+                    <div
+                      className="c18"
+                    >
+                      <span
+                        className="c23"
+                        size="small"
+                      >
+                        <span
+                          className="c20"
+                          size="small"
+                        >
+                          <div
+                            className="c21"
+                            opacity={1}
+                          >
+                            <div
+                              className="c24"
+                              size="small"
+                            >
+                              <img
+                                src="/assets/icons/sosmed-facebook-748e9beb6b3f881009a68cf748b56252.svg"
+                                style={
+                                  Object {
+                                    "display": "block",
+                                    "height": "1.8rem",
+                                    "width": "1.8rem",
+                                  }
+                                }
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </span>
+                    </div>
                     <span
-                      className="c22"
+                      className="c5"
                       size="small"
                     >
                       <span
-                        className="c19"
+                        className="c6"
+                        color="regular"
                         size="small"
                       >
-                        <div
-                          className="c20"
-                          opacity={1}
-                        >
-                          <div
-                            className="c23"
-                            size="small"
-                          >
-                            <img
-                              src="/assets/icons/sosmed-facebook-eeea5142234aa29cdda43fb6a156fb45.svg"
-                              style={
-                                Object {
-                                  "display": "block",
-                                  "height": "1.8rem",
-                                  "width": "1.8rem",
-                                }
-                              }
-                            />
-                          </div>
-                        </div>
+                        text
                       </span>
                     </span>
-                  </div>
-                  <span
-                    className="c4"
-                    size="small"
-                  >
-                    <span
-                      className="c5"
-                      color="regular"
-                      size="small"
-                    >
-                      text
-                    </span>
                   </span>
-                </span>
-              </button>
+                </button>
+              </div>
             </div>
             <div
-              className="c39"
+              className="c40"
             >
-              <button
-                className="c41"
-                disabled={false}
-                onClick={[Function]}
-                size="small"
+              <div
+                className="c0"
               >
-                <span
-                  className="c1"
+                <button
+                  className="c42"
+                  disabled={false}
+                  onClick={[Function]}
+                  size="small"
                 >
-                  <div
-                    className="c17"
+                  <span
+                    className="c2"
                   >
+                    <div
+                      className="c18"
+                    >
+                      <span
+                        className="c23"
+                        size="small"
+                      >
+                        <span
+                          className="c20"
+                          size="small"
+                        >
+                          <div
+                            className="c21"
+                            opacity={1}
+                          >
+                            <div
+                              className="c24"
+                              size="small"
+                            >
+                              <img
+                                src="/assets/icons/sosmed-facebook-748e9beb6b3f881009a68cf748b56252.svg"
+                                style={
+                                  Object {
+                                    "display": "block",
+                                    "height": "1.8rem",
+                                    "width": "1.8rem",
+                                  }
+                                }
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </span>
+                    </div>
                     <span
-                      className="c22"
+                      className="c5"
                       size="small"
                     >
                       <span
-                        className="c19"
+                        className="c6"
+                        color="regular"
                         size="small"
                       >
-                        <div
-                          className="c20"
-                          opacity={1}
-                        >
-                          <div
-                            className="c23"
-                            size="small"
-                          >
-                            <img
-                              src="/assets/icons/sosmed-facebook-eeea5142234aa29cdda43fb6a156fb45.svg"
-                              style={
-                                Object {
-                                  "display": "block",
-                                  "height": "1.8rem",
-                                  "width": "1.8rem",
-                                }
-                              }
-                            />
-                          </div>
-                        </div>
+                        text
                       </span>
                     </span>
-                  </div>
-                  <span
-                    className="c4"
-                    size="small"
-                  >
-                    <span
-                      className="c5"
-                      color="regular"
-                      size="small"
-                    >
-                      text
-                    </span>
                   </span>
-                </span>
-              </button>
+                </button>
+              </div>
             </div>
             <div
-              className="c39"
+              className="c40"
             >
-              <button
-                className="c42"
-                disabled={false}
-                onClick={[Function]}
-                size="small"
+              <div
+                className="c0"
               >
-                <span
-                  className="c1"
+                <button
+                  className="c43"
+                  disabled={false}
+                  onClick={[Function]}
+                  size="small"
                 >
-                  <div
-                    className="c17"
+                  <span
+                    className="c2"
                   >
+                    <div
+                      className="c18"
+                    >
+                      <span
+                        className="c23"
+                        size="small"
+                      >
+                        <span
+                          className="c20"
+                          size="small"
+                        >
+                          <div
+                            className="c21"
+                            opacity={1}
+                          >
+                            <div
+                              className="c24"
+                              size="small"
+                            >
+                              <img
+                                src="/assets/icons/sosmed-facebook-748e9beb6b3f881009a68cf748b56252.svg"
+                                style={
+                                  Object {
+                                    "display": "block",
+                                    "height": "1.8rem",
+                                    "width": "1.8rem",
+                                  }
+                                }
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </span>
+                    </div>
                     <span
-                      className="c22"
+                      className="c5"
                       size="small"
                     >
                       <span
-                        className="c19"
+                        className="c6"
+                        color="regular"
                         size="small"
                       >
-                        <div
-                          className="c20"
-                          opacity={1}
-                        >
-                          <div
-                            className="c23"
-                            size="small"
-                          >
-                            <img
-                              src="/assets/icons/sosmed-facebook-eeea5142234aa29cdda43fb6a156fb45.svg"
-                              style={
-                                Object {
-                                  "display": "block",
-                                  "height": "1.8rem",
-                                  "width": "1.8rem",
-                                }
-                              }
-                            />
-                          </div>
-                        </div>
+                        text
                       </span>
                     </span>
-                  </div>
-                  <span
-                    className="c4"
-                    size="small"
-                  >
-                    <span
-                      className="c5"
-                      color="regular"
-                      size="small"
-                    >
-                      text
-                    </span>
                   </span>
-                </span>
-              </button>
+                </button>
+              </div>
             </div>
           </div>
         </td>
