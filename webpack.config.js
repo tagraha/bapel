@@ -1,11 +1,9 @@
 const path = require('path');
 const entry = require('webpack-glob-entry');
 const WebpackAssetsManifest = require('webpack-assets-manifest');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-  entry: entry('./assets/**/*.*'),
+  entry: entry('./assets/icons/*.*', './assets/logos/*.*'),
   output: {
     path: path.resolve('./dist/public/'),
     filename: '[name]-[hash].js',
@@ -13,7 +11,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg|woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
         use: [
           {
             loader: 'file-loader',
@@ -23,19 +21,7 @@ module.exports = {
           },
         ],
       },
-
-      {
-        test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss')
-      },
     ],
   },
-  plugins: [
-    new WebpackAssetsManifest(),
-  ],
-  optimization: {
-    minimizer: [
-      new UglifyJSPlugin()
-    ]
-  }
+  plugins: [new WebpackAssetsManifest()],
 };
