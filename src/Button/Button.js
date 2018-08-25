@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import styled, {css} from 'styled-components';
+import Wrapper from '../Wrapper';
 import ButtonLabel from './ButtonLabel';
 import ButtonIcon from './ButtonIcon';
 import Icon, {Icons} from '../Icon';
@@ -101,7 +102,6 @@ const ButtonWrapper = styled.button`
   padding: 0;
   outline: 0;
   transition: 0.2s;
-  line-height: 2.4rem;
   text-decoration: none !important;
   ${props =>
     props.variant !== 'link' &&
@@ -151,41 +151,43 @@ const Button = (props: Props) => {
     ...defaultButtonProps
   } = props;
   return (
-    <ButtonWrapper
-      block={block}
-      round={round}
-      disabled={disabled}
-      size={size}
-      variant={variant}
-      {...defaultButtonProps}>
-      <ButtonContentContainer>
-        {icon &&
-          (!iconPosition || iconPosition === 'left') && (
-            <ButtonIcon
-              notificationValue={notificationValue}
-              size={size}
-              icon={icon}
-              position={
-                children ? (iconPosition ? iconPosition : 'left') : 'default'
-              }
-            />
+    <Wrapper>
+      <ButtonWrapper
+        block={block}
+        round={round}
+        disabled={disabled}
+        size={size}
+        variant={variant}
+        {...defaultButtonProps}>
+        <ButtonContentContainer>
+          {icon &&
+            (!iconPosition || iconPosition === 'left') && (
+              <ButtonIcon
+                notificationValue={notificationValue}
+                size={size}
+                icon={icon}
+                position={
+                  children ? (iconPosition ? iconPosition : 'left') : 'default'
+                }
+              />
+            )}
+          {children && (
+            <ButtonLabel size={size} variant={variant}>
+              {children}
+            </ButtonLabel>
           )}
-        {children && (
-          <ButtonLabel size={size} variant={variant}>
-            {children}
-          </ButtonLabel>
-        )}
-        {icon &&
-          iconPosition === 'right' && (
-            <ButtonIcon
-              notificationValue={notificationValue}
-              size={size}
-              icon={icon}
-              position={iconPosition}
-            />
-          )}
-      </ButtonContentContainer>
-    </ButtonWrapper>
+          {icon &&
+            iconPosition === 'right' && (
+              <ButtonIcon
+                notificationValue={notificationValue}
+                size={size}
+                icon={icon}
+                position={iconPosition}
+              />
+            )}
+        </ButtonContentContainer>
+      </ButtonWrapper>
+    </Wrapper>
   );
 };
 

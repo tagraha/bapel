@@ -43,16 +43,16 @@ type Props = {
 
 const StyledText = styled.span`
   font-family: ${props =>
-    props.family === 'serif'
-      ? '"PT Serif", Georgia, Serif'
+    props.family === 'poppins'
+      ? `'Poppins', sans-serif`
       : '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif'};
   -webkit-font-smoothing: antialiased;
   font-size: ${Matcher.create('size', [
-    ['xmicro', '1rem'],
-    ['micro', '1.2rem'],
-    ['small', '1.4rem'],
-    ['regular', '1.6rem'],
-    ['large', '2.0rem'],
+    ['xmicro', '.4rem'],
+    ['micro', '.6rem'],
+    ['small', '.8rem'],
+    ['regular', '1rem'],
+    ['large', '1.4rem'],
     ['display-small', '2.4rem'],
     ['display-medium', '3.2rem'],
     ['display-large', '4.0rem'],

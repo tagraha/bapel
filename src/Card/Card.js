@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+/* internal library import */
+import Wrapper from './../Wrapper';
+
 type Props = {
   cardImage?: string,
   cardCaption?: string,
@@ -20,28 +23,30 @@ const Card = (props: Props) => {
   } = props;
 
   return (
-    <CardWrapper>
-      <CardImage src={cardImage} />
-      <CardTitleWrapper>
-        {cardCaption && !isReactRouter &&
-          <CardTitle 
-            href={url || "javascript:void(0)"}
-            target={external ? '_blank' : '_parent'}
-            rel="noopener noreferrer"
-          >
-            {cardCaption}
-          </CardTitle>
-        }
+    <Wrapper>
+      <CardWrapper>
+        <CardImage src={cardImage} />
+        <CardTitleWrapper>
+          {cardCaption && !isReactRouter &&
+            <CardTitle 
+              href={url || "javascript:void(0)"}
+              target={external ? '_blank' : '_parent'}
+              rel="noopener noreferrer"
+            >
+              {cardCaption}
+            </CardTitle>
+          }
 
-        {isReactRouter &&
-          <LinkRouter
-            to={url}
-          >{cardCaption}</LinkRouter>
-        }
-      </CardTitleWrapper>
+          {isReactRouter &&
+            <LinkRouter
+              to={url}
+            >{cardCaption}</LinkRouter>
+          }
+        </CardTitleWrapper>
 
-      <CardContent>5m ago by Tirta</CardContent>
-    </CardWrapper>
+        <CardContent>5m ago by Tirta</CardContent>
+      </CardWrapper>
+    </Wrapper>
   )
 }
 
