@@ -1,6 +1,6 @@
 {
   "name": "bapel",
-  "version": "2.2.8",
+  "version": "2.3.0",
   "description": "made by love <dev.nugrata@gmail.com> bapel uikit for web frontend",
   "engines": {
     "node": ">= 6.9.0"
