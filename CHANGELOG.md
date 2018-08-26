@@ -1,3 +1,29 @@
+### 2.3.0 (2018-08-26)
+
+##### Build System / Dependencies
+
+* **webpack:**  update webpack config ([68547a6b](https://github.com/tagraha/bapel/commit/68547a6b755d1dda5c97a317213913be310abe20))
+* **circleci:**
+  *  switch back to npm ([213e34eb](https://github.com/tagraha/bapel/commit/213e34eb6c34fb16fffe30e8425957ff19f530ab))
+  *  adding circleci ([3e7b8285](https://github.com/tagraha/bapel/commit/3e7b82852e10d9d4f33e34203dfbc53b6f454d40))
+* **npm:**  using npm instead of yarn ([28286896](https://github.com/tagraha/bapel/commit/2828689642c0c02b14c46e8998598bd89580ff1c))
+
+##### New Features
+
+* **component:**  adding wrapper component ([1ab59ab8](https://github.com/tagraha/bapel/commit/1ab59ab869d99959ccf00cc961cd7fd06a54c060))
+
+##### Other Changes
+
+* **package:**
+  *  update file-loader ([54f8d296](https://github.com/tagraha/bapel/commit/54f8d2966bf866604e5076036d81b88d44177d41))
+  *  update postcss-loader ([1389169d](https://github.com/tagraha/bapel/commit/1389169d85d35a40eed612ca7fe6bb2ffeaa23ea))
+  *  update peer dependencies ([b4dc2ed8](https://github.com/tagraha/bapel/commit/b4dc2ed88108c56cec0d7fcb1a6eb393637f3ac2))
+* **assets:**  adding fonts asset ([05152bf1](https://github.com/tagraha/bapel/commit/05152bf1a33568b67cfe4d9a0f1fc539cace2229))
+
+##### Tests
+
+* **snapshot:**  update snapshot ([62b8a9ce](https://github.com/tagraha/bapel/commit/62b8a9ce55c000c5b3240080cdcd2c2bd2cf9f13))
+
 #### 2.2.8 (2018-07-24)
 
 ##### Build System / Dependencies
